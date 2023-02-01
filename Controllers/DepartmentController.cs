@@ -4,17 +4,32 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace dotrest.Controllers;
 
+[ApiController]
+[Route("[controller]")]
 public class DepartmentController : Controller
 {
-    private readonly DepartmentRepository _repo;
-
-    public DepartmentController(DepartmentRepository repo)
+    private readonly IDepartmentRepository _department;
+    private readonly ILogger<DepartmentController> _logger;
+    public DepartmentController(IDepartmentRepository department,ILogger<DepartmentController> logger)
     {
-        _repo = repo;
+        _department = department;
+        _logger = logger;
     }
-    // GET
-    public Task<IEnumerable<Department>> Index()
+    [HttpGet("GetDepartment")]
+    public async Task<IActionResult> Get()
     {
-        return _repo.GetDepartment();
+        _logger.LogInformation("Get Department API executed");
+        return Ok(await _department.GetDepartment());
     }
+    
+    [HttpPost("PostDepartment")]
+    public async Task<IActionResult> Post(Department dep)
+    {
+        _logger.LogInformation("Post Department API executed");
+        // return Ok(dep);
+         var result = await _department.InsertDepartment(dep);
+        return result.Id == 0 ? StatusCode(StatusCodes.Status500InternalServerError, "Something went wrong") : Ok("Added Successfully");
+    }
+    
+    
 }
