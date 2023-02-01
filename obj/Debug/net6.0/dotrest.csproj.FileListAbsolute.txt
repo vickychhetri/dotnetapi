@@ -5,7 +5,14 @@
 /home/vicky/Desktop/Workspace_Backup_zone/dot/dotrest/bin/Debug/net6.0/dotrest.runtimeconfig.json
 /home/vicky/Desktop/Workspace_Backup_zone/dot/dotrest/bin/Debug/net6.0/dotrest.dll
 /home/vicky/Desktop/Workspace_Backup_zone/dot/dotrest/bin/Debug/net6.0/dotrest.pdb
+/home/vicky/Desktop/Workspace_Backup_zone/dot/dotrest/bin/Debug/net6.0/Humanizer.dll
+/home/vicky/Desktop/Workspace_Backup_zone/dot/dotrest/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+/home/vicky/Desktop/Workspace_Backup_zone/dot/dotrest/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/vicky/Desktop/Workspace_Backup_zone/dot/dotrest/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/home/vicky/Desktop/Workspace_Backup_zone/dot/dotrest/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
 /home/vicky/Desktop/Workspace_Backup_zone/dot/dotrest/bin/Debug/net6.0/Microsoft.OpenApi.dll
+/home/vicky/Desktop/Workspace_Backup_zone/dot/dotrest/bin/Debug/net6.0/MySqlConnector.dll
+/home/vicky/Desktop/Workspace_Backup_zone/dot/dotrest/bin/Debug/net6.0/Pomelo.EntityFrameworkCore.MySql.dll
 /home/vicky/Desktop/Workspace_Backup_zone/dot/dotrest/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
 /home/vicky/Desktop/Workspace_Backup_zone/dot/dotrest/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /home/vicky/Desktop/Workspace_Backup_zone/dot/dotrest/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -25,10 +32,3 @@
 /home/vicky/Desktop/Workspace_Backup_zone/dot/dotrest/obj/Debug/net6.0/dotrest.pdb
 /home/vicky/Desktop/Workspace_Backup_zone/dot/dotrest/obj/Debug/net6.0/dotrest.genruntimeconfig.cache
 /home/vicky/Desktop/Workspace_Backup_zone/dot/dotrest/obj/Debug/net6.0/ref/dotrest.dll
-/home/vicky/Desktop/Workspace_Backup_zone/dot/dotrest/bin/Debug/net6.0/Humanizer.dll
-/home/vicky/Desktop/Workspace_Backup_zone/dot/dotrest/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
-/home/vicky/Desktop/Workspace_Backup_zone/dot/dotrest/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
-/home/vicky/Desktop/Workspace_Backup_zone/dot/dotrest/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
-/home/vicky/Desktop/Workspace_Backup_zone/dot/dotrest/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
-/home/vicky/Desktop/Workspace_Backup_zone/dot/dotrest/bin/Debug/net6.0/MySqlConnector.dll
-/home/vicky/Desktop/Workspace_Backup_zone/dot/dotrest/bin/Debug/net6.0/Pomelo.EntityFrameworkCore.MySql.dll

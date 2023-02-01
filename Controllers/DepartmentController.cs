@@ -31,5 +31,18 @@ public class DepartmentController : Controller
         return result.Id == 0 ? StatusCode(StatusCodes.Status500InternalServerError, "Something went wrong") : Ok("Added Successfully");
     }
     
-    
+    [HttpPut]
+    [Route("UpdateDepartment")]
+    public async Task <IActionResult> Put(Department dep) {
+        await _department.UpdateDepartment(dep);
+        return Ok("Updated Successfully");
+    }
+    [HttpDelete]
+    //[HttpDelete("{id}")]
+    [Route("DeleteDepartment")]
+    public JsonResult Delete(int id) {
+        var result =_department.DeleteDepartment(id);
+        return result ? new JsonResult("Deleted Successfully") : new JsonResult("Not Found");
+    }
+
 }

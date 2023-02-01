@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Vqe+88CfR+hXAxokvbb3Il1rthjJyh7txiZs0XF1HncQOA1JiuRC3kVUIlojrPsQM7xbLtDQNOexE4x+zItFFQ==",
+  "dgSpecHash": "MOP5zK9nCDPfxJ7Z5G8sj/oTo8NQUchyDub/iDdUsIrgUi5UVgbBMWyxjat7jZjCXfn7v0MfTyw+MheNEz8wKg==",
   "success": true,
   "projectFilePath": "/home/vicky/Desktop/Workspace_Backup_zone/dot/dotrest/dotrest.csproj",
   "expectedPackageFiles": [
@@ -30,7 +30,9 @@
     "/home/vicky/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
     "/home/vicky/.nuget/packages/system.collections.immutable/6.0.0/system.collections.immutable.6.0.0.nupkg.sha512",
     "/home/vicky/.nuget/packages/system.diagnostics.diagnosticsource/6.0.0/system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
-    "/home/vicky/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "/home/vicky/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/home/vicky/.nuget/packages/microsoft.netcore.app.runtime.linux-x64/6.0.13/microsoft.netcore.app.runtime.linux-x64.6.0.13.nupkg.sha512",
+    "/home/vicky/.nuget/packages/microsoft.aspnetcore.app.runtime.linux-x64/6.0.13/microsoft.aspnetcore.app.runtime.linux-x64.6.0.13.nupkg.sha512"
   ],
   "logs": []
 }
